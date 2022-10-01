@@ -75,3 +75,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
+# TWRP Configuration
+include $(DEVICE_PATH)/BoardConfigTWRP.mk
